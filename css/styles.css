@@ -593,6 +593,8 @@ li:hover p {
 }
 
 .footer-form {
+        display: flex;
+        gap: 24px;
         margin-left: 80px;
 }
 

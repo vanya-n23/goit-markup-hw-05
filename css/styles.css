@@ -568,6 +568,10 @@ li:hover p {
         border-radius: 4px;
         width: 264px;
         height: 40px;
+        padding-left: 16px;
+        font-size: 12px;
+        line-height: 2px;
+        letter-spacing: 0.04em;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background-color: transparent;
 }

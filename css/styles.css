@@ -701,13 +701,11 @@ li:hover p {
 .modal-btn:hover {
         background-color: #404bbf;
         border: none;
-        fill: #ffffff;
 }
 
-.modal-btn:focus .icon-modal-btn {
+.modal-btn:focus {
         background-color: #404bbf;
         border: none;
-       
 }
 
 .modal-btn:focus .icon-modal-btn{

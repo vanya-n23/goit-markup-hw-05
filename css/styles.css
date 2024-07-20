@@ -662,14 +662,14 @@ li:hover p {
 }
 
 .label-input-div {
-        margin-top: 16px;
+        margin-bottom: 16px;
         margin-left: 24px;
 }
 
 .modal-label-input {
+        line-height: 1.17;
         display: block;
         margin-bottom: 4px;
-        line-height: 1.17;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 12px;
@@ -701,11 +701,13 @@ li:hover p {
 .modal-btn:hover {
         background-color: #404bbf;
         border: none;
+        fill: #ffffff;
 }
 
 .modal-btn:focus {
         background-color: #404bbf;
         border: none;
+        fill: #ffffff;
 }
 
 .modal-article {
@@ -779,15 +781,18 @@ li:hover p {
 }
 
 .modal-textarea {
-        width: 360px;
-        height: 138px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
+        background-color: transparent;
+        padding: 8px 16px;
+        height: 120px;
         border-radius: 4px;
         border: 1px solid rgba(46, 47, 66, 0.4);
-        padding-left: 38px;
         outline: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        padding-left: 16px;
-        padding-top: 8px;
         resize: none;
 }
 

@@ -868,6 +868,9 @@ li:hover p {
         display: inline-flex;
 }
 
+.span-label{
+        display: inline-flex;
+}
 .modal-chek:checked + .terms-article span {
         border: none;
         background-color: #404bbf;

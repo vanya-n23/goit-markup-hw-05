@@ -570,10 +570,15 @@ li:hover p {
         height: 40px;
         padding-left: 16px;
         font-size: 12px;
-        line-height: 2px;
+        line-height: 2;
         letter-spacing: 0.04em;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background-color: transparent;
+        color: #ffffff;
+}
+
+.footer-input::placeholder {
+        color: #ffffff;
 }
 
 .footer-btn-form {
@@ -582,7 +587,7 @@ li:hover p {
         gap: 16px;
         border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         background-color: #4d5ae5;
         border: none;

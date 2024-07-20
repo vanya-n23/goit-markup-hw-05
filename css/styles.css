@@ -606,6 +606,10 @@ li:hover p {
         fill: #fff;   
 }
 
+.footer-label-form {
+        display: flex;
+}
+
 /* MODALka*/
 
 .backdrop {

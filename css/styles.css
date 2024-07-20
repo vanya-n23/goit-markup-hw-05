@@ -597,6 +597,9 @@ li:hover p {
         letter-spacing: 0.04em;
         text-align: center;
         color: #fff;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
         
         
 }
@@ -608,6 +611,7 @@ li:hover p {
 }
 
 .icon-footer-btn {
+        margin-left: 16px;
         fill: #fff;   
 }
 

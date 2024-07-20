@@ -867,12 +867,17 @@ li:hover p {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-label-chekbox {
+        line-height: 1.17;
+}
+
 
 .modal-chek:checked + .terms-article span {
         border: none;
         background-color: #404bbf;
         fill: #f4f4fd;
 }
+
 
 .link-check-article {
         line-height: 1.3;

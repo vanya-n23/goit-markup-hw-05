@@ -583,7 +583,6 @@ li:hover p {
 .footer-btn-form {
         justify-content: center;
         flex-direction: row;
-        gap: 16px;
         border-radius: 4px;
         padding: 8px 24px;
         min-width: 165px;

@@ -154,7 +154,7 @@ img {
     background-image: linear-gradient(to bottom, 
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-        url(/images/people-office-squashed.jpg);
+        url(../images/people-office-squashed.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -560,7 +560,6 @@ li:hover p {
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
-        margin-left: 80px;
 }
 
 .footer-input {
@@ -607,7 +606,6 @@ li:hover p {
 .footer-form {
         display: flex;
         gap: 24px;
-        margin-left: 80px;
 }
 
 .icon-footer-btn {
@@ -617,6 +615,10 @@ li:hover p {
 
 .footer-label-form {
         display: flex;
+}
+
+.footer-input-form {
+        margin-left: auto;
 }
 
 /* MODALka*/
@@ -661,10 +663,6 @@ li:hover p {
         padding: 72px 24px 24px 24px;
 }
 
-.label-input-div {
-        margin-bottom: 24px;
-        margin-left: 24px;
-}
 
 .modal-label-input {
         font-size: 12px;
@@ -714,7 +712,6 @@ li:hover p {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-top: 72px;
         margin-bottom: 16px;
 }
 
@@ -764,7 +761,6 @@ li:hover p {
 
 .label-input-div {
         margin-bottom: 8px;
-        position: relative;
 }
 
 .icon-modal-input {
@@ -811,8 +807,6 @@ li:hover p {
 }
 
 .modal-btn-bottom {
-        margin-top: 24px;
-        margin-bottom: 24px;
         display: block;
         border-radius: 4px;
         text-align: center;
@@ -886,4 +880,8 @@ li:hover p {
 
 .input-svg {
         position: relative;
+}
+
+.span-label {
+        margin-right: 8px;
 }
